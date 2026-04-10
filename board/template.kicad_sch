@@ -2892,6 +2892,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Using pin1 on other board for UART"
+		(exclude_from_sim no)
+		(at 95.25 81.788 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f57244f-d82d-423c-993c-41bd571fd239")
+	)
 	(text "PMI op27 is transimpedance amp"
 		(exclude_from_sim no)
 		(at 105.664 103.378 0)
@@ -3176,6 +3186,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 137.16) (xy 77.47 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7441a3dd-3ada-40d4-b14e-8470bd626e69")
+	)
+	(wire
+		(pts
 			(xy 205.74 102.87) (xy 205.74 104.14)
 		)
 		(stroke
@@ -3216,6 +3236,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 83.82) (xy 22.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814a2ccc-671a-45f3-a43c-e483116f0193")
+	)
+	(wire
+		(pts
 			(xy 171.45 101.6) (xy 167.64 101.6)
 		)
 		(stroke
@@ -3233,6 +3263,16 @@
 			(type default)
 		)
 		(uuid "8e4c3bf1-193b-4582-a474-5930b8d3e15b")
+	)
+	(wire
+		(pts
+			(xy 22.86 83.82) (xy 22.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9906e1af-6ef6-47f8-9729-cb81b93c649d")
 	)
 	(wire
 		(pts
@@ -3423,6 +3463,28 @@
 			(type default)
 		)
 		(uuid "ffc59b78-b647-49e3-a126-4112656148eb")
+	)
+	(global_label "UART"
+		(shape input)
+		(at 22.86 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d000a3a0-feea-4c2e-b661-e4040bf26777")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.2181 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "V_{P_PD}"
 		(shape output)
